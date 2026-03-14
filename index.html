@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Repton Digital — Perth's AI Agency. Built Different.</title>
+  <meta name="description" content="Voice agents, automations, websites, and full AI operating systems — for Perth businesses ready to compete differently. Book a free demo." />
+  <meta name="theme-color" content="#060B16" />
+
+  <!-- Open Graph / Social sharing -->
+  <meta property="og:type"        content="website" />
+  <meta property="og:title"       content="Repton Digital — Perth's Digital Agency" />
+  <meta property="og:description" content="Websites, AI systems, automations and custom software for Perth businesses. Book a free discovery call." />
+  <meta property="og:url"         content="https://reptondigital.com.au" />
+  <meta name="twitter:card"       content="summary_large_image" />
+  <link rel="canonical"           href="https://reptondigital.com.au" />
+
+  <!-- Fonts: Unbounded (hero) + Syne (headings) + Inter (body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@700;800;900&family=Syne:wght@700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ── Cursor glow ───────────────────────────────────── -->
+  <div class="cursor-glow" id="cursorGlow" aria-hidden="true"></div>
+
+  <!-- ── Background canvas ─────────────────────────────── -->
+  <div class="bg-canvas" aria-hidden="true">
+    <div class="dot-grid"></div>
+    <div class="bg-orb-3"></div>
+    <div class="bg-orb-float bg-orb-a"></div>
+    <div class="bg-orb-float bg-orb-b"></div>
+    <div class="bg-orb-float bg-orb-c"></div>
+  </div>
+
+  <!-- ============================================================
+       NAVIGATION
+       ============================================================ -->
+  <nav id="nav">
+    <div class="container">
+      <div class="nav-inner">
+        <a href="#hero" class="nav-logo">Repton Digital<span>.</span></a>
+
+        <ul class="nav-links">
+          <li><a href="#services">Services</a></li>
+          <li><a href="#aios">AIOS</a></li>
+          <li><a href="#process">Process</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#cta">Contact</a></li>
+        </ul>
+
+        <a href="mailto:repton.digital@gmail.com" class="btn btn-primary nav-cta">Book a Discovery Call</a>
+
+        <button class="nav-menu-btn" id="menuBtn" aria-label="Open menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+
+      <div class="nav-mobile" id="navMobile">
+        <a href="#services">Services</a>
+        <a href="#aios">AIOS</a>
+        <a href="#process">Process</a>
+        <a href="#about">About</a>
+        <a href="#cta">Contact</a>
+        <a href="mailto:repton.digital@gmail.com" class="btn btn-primary" style="margin-top:8px;">Book a Discovery Call</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ============================================================
+       HERO
+       ============================================================ -->
+  <section id="hero">
+    <div class="container">
+      <div class="hero-inner">
+
+        <div class="hero-badge anim-fade">
+          <span class="dot"></span>
+          Perth, Western Australia
+        </div>
+
+        <h1 class="hero-headline">
+          <span class="hw">Digital</span>
+          <span class="hw">services</span>
+          <span class="hw">that</span><br/>
+          <span class="hw">help</span>
+          <span class="hw">your</span>
+          <span class="hw">business</span><br/>
+          <em><span class="hw">grow,</span>
+          <span class="hw">automate,</span>
+          <span class="hw">and</span>
+          <span class="hw">win.</span></em>
+        </h1>
+
+        <p class="hero-sub anim-fade anim-delay-2">
+          Websites that convert. AI systems that work while you sleep. Software built to your exact needs. Repton Digital builds the digital layer that keeps your business moving — without the overhead.
+        </p>
+
+        <div class="hero-btns anim-fade anim-delay-3">
+          <a href="mailto:repton.digital@gmail.com" class="btn btn-primary btn-lg">
+            Book a Discovery Call
+            <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+          </a>
+          <a href="#aios" class="btn btn-glass btn-lg">
+            See AIOS in Action
+          </a>
+        </div>
+
+        <!-- Stats bar -->
+        <div class="anim-fade anim-delay-4" style="margin-top:64px;">
+          <div class="glass hero-stats-wrap">
+            <div class="hero-stats">
+              <div class="hero-stat">
+                <div class="hero-stat-num"><span class="count" data-target="24" data-suffix="/7">0</span></div>
+                <div class="hero-stat-label">AI Always On</div>
+              </div>
+              <div class="hero-stat">
+                <div class="hero-stat-num"><span class="stat-prefix">$</span><span class="count" data-target="10" data-suffix="/mo">0</span></div>
+                <div class="hero-stat-label">Hosting from</div>
+              </div>
+              <div class="hero-stat">
+                <div class="hero-stat-num"><span class="count" data-target="4">0</span></div>
+                <div class="hero-stat-label">Core Services</div>
+              </div>
+              <div class="hero-stat">
+                <div class="hero-stat-num"><span class="stat-prefix">#</span><span class="count" data-target="1">0</span></div>
+                <div class="hero-stat-label">Perth Digital Agency</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Marquee ticker strip ───────────────────────────────── -->
+  <div class="marquee-strip" aria-hidden="true">
+    <div class="marquee-track">
+      <span>Voice Agents</span><span class="marquee-dot">·</span>
+      <span>AI Automations</span><span class="marquee-dot">·</span>
+      <span>Custom Websites</span><span class="marquee-dot">·</span>
+      <span>AIOS Business Brain</span><span class="marquee-dot">·</span>
+      <span>Perth, WA</span><span class="marquee-dot">·</span>
+      <span>Jobs Booked Overnight</span><span class="marquee-dot">·</span>
+      <span>Zero Extra Headcount</span><span class="marquee-dot">·</span>
+      <span>Built for Tradies &amp; SMBs</span><span class="marquee-dot">·</span>
+      <span>Voice Agents</span><span class="marquee-dot">·</span>
+      <span>AI Automations</span><span class="marquee-dot">·</span>
+      <span>Custom Websites</span><span class="marquee-dot">·</span>
+      <span>AIOS Business Brain</span><span class="marquee-dot">·</span>
+      <span>Perth, WA</span><span class="marquee-dot">·</span>
+      <span>Jobs Booked Overnight</span><span class="marquee-dot">·</span>
+      <span>Zero Extra Headcount</span><span class="marquee-dot">·</span>
+      <span>Built for Tradies &amp; SMBs</span><span class="marquee-dot">·</span>
+    </div>
+  </div>
+
+  <!-- ============================================================
+       SERVICES
+       ============================================================ -->
+  <section id="services">
+    <div class="container">
+      <div class="section-header">
+        <span class="eyebrow anim-fade">What We Build</span>
+        <h2 class="anim-fade anim-delay-1">Four ways we make<br/>your business smarter.</h2>
+        <p class="anim-fade anim-delay-2">Real AI. Real outcomes. No buzzwords.</p>
+      </div>
+
+      <div class="services-grid">
+
+        <!-- 01 — Websites -->
+        <div class="service-card glass tilt-card anim-fade"><div class="card-spotlight"></div>
+          <div class="service-num">01</div>
+          <div class="service-icon">
+            <svg fill="none" viewBox="0 0 24 24" stroke="#0EA5E9" stroke-width="1.8">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"/>
+            </svg>
+          </div>
+          <h3>Website Development</h3>
+          <p>Custom-designed, fast-loading, mobile-ready websites built for Perth businesses. Not templates. Not Wix.</p>
+          <ul class="service-features">
+            <li>Custom design — built from scratch</li>
+            <li>Mobile-first, SEO-optimised</li>
+            <li>Booking + contact integrations</li>
+            <li>Fast turnaround</li>
+          </ul>
+          <div class="service-price">Hosting from <strong>$10/month</strong> · Build cost quoted per project</div>
+        </div>
+
+        <!-- 02 — Voice Agents -->
+        <div class="service-card glass tilt-card anim-fade anim-delay-1"><div class="card-spotlight"></div>
+          <div class="service-num">02</div>
+          <div class="service-icon">
+            <svg fill="none" viewBox="0 0 24 24" stroke="#0EA5E9" stroke-width="1.8">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
+            </svg>
+          </div>
+          <h3>AI Voice Agents</h3>
+          <p>Outbound and inbound AI callers that prospect leads, qualify customers, and book appointments — 24/7 while you sleep.</p>
+          <ul class="service-features">
+            <li>Trained on your exact business</li>
+            <li>Handles objections, books jobs</li>
+            <li>CSV outbound campaigns</li>
+            <li>Australian phone numbers</li>
+          </ul>
+          <div class="service-price"><strong>Free demo call</strong> — hear the agent before you buy</div>
+        </div>
+
+        <!-- 03 — Automations -->
+        <div class="service-card glass tilt-card anim-fade anim-delay-2"><div class="card-spotlight"></div>
+          <div class="service-num">03</div>
+          <div class="service-icon">
+            <svg fill="none" viewBox="0 0 24 24" stroke="#0EA5E9" stroke-width="1.8">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/>
+            </svg>
+          </div>
+          <h3>AI Automations &amp; Workflows</h3>
+          <p>Stop doing manually what software can do automatically. We map your workflows and build the automation layer on top.</p>
+          <ul class="service-features">
+            <li>Workflow audit and mapping</li>
+            <li>CRM, calendar, email integration</li>
+            <li>Custom automation builds</li>
+            <li>Ongoing optimisation</li>
+          </ul>
+          <div class="service-price"><strong>Custom scoped</strong> · Quoted per project</div>
+        </div>
+
+        <!-- 04 — Software -->
+        <div class="service-card glass tilt-card anim-fade anim-delay-3"><div class="card-spotlight"></div>
+          <div class="service-num">04</div>
+          <div class="service-icon">
+            <svg fill="none" viewBox="0 0 24 24" stroke="#0EA5E9" stroke-width="1.8">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"/>
+            </svg>
+          </div>
+          <h3>Software Development</h3>
+          <p>When off-the-shelf tools don't cut it. Full-stack custom software and SaaS products built with AI-first architecture.</p>
+          <ul class="service-features">
+            <li>Full-stack web applications</li>
+            <li>SaaS product development</li>
+            <li>AI-integrated backends</li>
+            <li>Built for scale</li>
+          </ul>
+          <div class="service-price"><strong>Custom scoped</strong> · Discovery call first</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <div class="container"><div class="divider"></div></div>
+
+  <!-- ============================================================
+       AIOS — FLAGSHIP PRODUCT
+       ============================================================ -->
+  <section id="aios">
+    <div class="container">
+      <div class="aios-wrap">
+
+        <!-- Left: content -->
+        <div class="aios-content">
+          <span class="eyebrow anim-fade">Flagship Product</span>
+          <h2 class="anim-fade anim-delay-1">One brain. Every workflow.<br/>Zero friction.</h2>
+          <p class="anim-fade anim-delay-2">
+            AIOS isn't a chatbot. It's a fully custom-built intelligence layer for your business. One knowledge base. One AI agent accessible via Telegram. Automations that handle the majority of your daily workflows — all connected, all learning.
+          </p>
+
+          <!-- 5 Layers -->
+          <div class="aios-layers">
+            <div class="layer-row anim-fade anim-delay-1">
+              <div class="layer-num">01</div>
+              <div class="layer-text">
+                <strong>Central Knowledge Base</strong>
+                <span>Every SOP, price, FAQ, and client detail — in one AI brain.</span>
+              </div>
+            </div>
+            <div class="layer-row anim-fade anim-delay-2">
+              <div class="layer-num">02</div>
+              <div class="layer-text">
+                <strong>AI Agent</strong>
+                <span>One agent that knows everything and can act on it — not just answer.</span>
+              </div>
+            </div>
+            <div class="layer-row anim-fade anim-delay-2">
+              <div class="layer-num">03</div>
+              <div class="layer-text">
+                <strong>Telegram Interface</strong>
+                <span>Talk to your business from your phone. Anytime. Anywhere.</span>
+              </div>
+            </div>
+            <div class="layer-row anim-fade anim-delay-3">
+              <div class="layer-num">04</div>
+              <div class="layer-text">
+                <strong>Automation Layer</strong>
+                <span>Send invoices, book jobs, update CRM — triggered by the agent.</span>
+              </div>
+            </div>
+            <div class="layer-row anim-fade anim-delay-3">
+              <div class="layer-num">05</div>
+              <div class="layer-text">
+                <strong>Integrations</strong>
+                <span>Connected to the tools you already use. Nothing ripped out.</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tags -->
+          <div class="aios-tags anim-fade anim-delay-4" style="margin-bottom:28px;">
+            <span class="aios-tag yes">✓ Bespoke to your business</span>
+            <span class="aios-tag yes">✓ Actually does things</span>
+            <span class="aios-tag yes">✓ Runs 24/7</span>
+            <span class="aios-tag no">Chatbot</span>
+            <span class="aios-tag no">Generic AI tool</span>
+            <span class="aios-tag no">Template</span>
+          </div>
+
+          <a href="mailto:repton.digital@gmail.com" class="btn btn-primary anim-fade anim-delay-4">
+            See AIOS in Action
+            <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+          </a>
+        </div>
+
+        <!-- Right: phone mockup -->
+        <div class="aios-visual anim-fade anim-delay-2">
+          <div class="aios-glow"></div>
+          <div class="phone-frame">
+            <div class="phone-notch"></div>
+            <div class="phone-header">
+              <div class="phone-header-avatar">🤖</div>
+              <div class="phone-header-info">
+                <strong>AIOS — Business Brain</strong>
+                <span>● Online</span>
+              </div>
+            </div>
+            <div class="phone-msgs" id="phoneMsgs"></div>
+            <div class="typing-indicator" id="typingIndicator" style="display:none;">
+              <span></span><span></span><span></span>
+            </div>
+            <div class="phone-input-bar">
+              <span>Message AIOS...</span>
+              <div class="phone-send">
+                <svg width="12" height="12" fill="white" viewBox="0 0 24 24"><path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/></svg>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <div class="container"><div class="divider"></div></div>
+
+  <!-- ============================================================
+       PROCESS
+       ============================================================ -->
+  <section id="process">
+    <div class="container">
+      <div class="section-header">
+        <span class="eyebrow anim-fade">How It Works</span>
+        <h2 class="anim-fade anim-delay-1">Simple process.<br/>Serious results.</h2>
+        <p class="anim-fade anim-delay-2">No drawn-out discovery phases. No endless back-and-forth. We move fast.</p>
+      </div>
+
+      <div class="process-grid">
+        <div class="process-card glass anim-fade">
+          <div class="process-num">1</div>
+          <h3>We audit your operations</h3>
+          <p>We map every workflow, tool, and time-drain in your business. We find exactly where AI creates the most leverage.</p>
+        </div>
+        <div class="process-card glass anim-fade anim-delay-1">
+          <div class="process-num">2</div>
+          <h3>We build your AI stack</h3>
+          <p>Custom-built voice agents, automations, websites, or AIOS — scoped to your exact needs. Nothing generic.</p>
+        </div>
+        <div class="process-card glass anim-fade anim-delay-2">
+          <div class="process-num">3</div>
+          <h3>You get time back</h3>
+          <p>Your business runs smarter. You focus on the work only you can do. The AI handles everything else.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="container"><div class="divider"></div></div>
+
+  <!-- ============================================================
+       ABOUT
+       ============================================================ -->
+  <section id="about">
+    <div class="container">
+      <div class="about-wrap">
+
+        <!-- Left: founder card -->
+        <div class="about-visual anim-fade">
+          <div class="founder-card">
+            <div class="founder-avatar">👤</div>
+            <div class="founder-name">Corey</div>
+            <div class="founder-title">Founder, Repton Digital</div>
+            <div class="founder-stats">
+              <div class="founder-stat">
+                <strong>Solo</strong>
+                <span>Solopreneur</span>
+              </div>
+              <div class="founder-stat">
+                <strong>CS</strong>
+                <span>Comp Science</span>
+              </div>
+              <div class="founder-stat">
+                <strong>Perth</strong>
+                <span>WA, AUS</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: about text -->
+        <div class="about-content">
+          <span class="eyebrow anim-fade">About</span>
+          <h2 class="anim-fade anim-delay-1">Built in Perth.<br/>Thinking globally.</h2>
+          <p class="anim-fade anim-delay-2">
+            Repton Digital is founder-led, lean, and technical. No account managers, no offshore teams, no agency fluff. You work directly with Corey — a solopreneur and computer science student who builds everything himself.
+          </p>
+
+          <div class="about-points">
+            <div class="about-point anim-fade anim-delay-1">
+              <div class="about-point-icon">
+                <svg fill="none" viewBox="0 0 24 24" stroke="#0EA5E9" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                </svg>
+              </div>
+              <div class="about-point-text">
+                <strong>Perth-based. Locally accountable.</strong>
+                <span>A digital agency in Perth focused exclusively on small business — not enterprise, not fluff.</span>
+              </div>
+            </div>
+            <div class="about-point anim-fade anim-delay-2">
+              <div class="about-point-icon">
+                <svg fill="none" viewBox="0 0 24 24" stroke="#0EA5E9" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"/>
+                </svg>
+              </div>
+              <div class="about-point-text">
+                <strong>Technical first. Always.</strong>
+                <span>Studying computer science and building real products — not reselling templates or generic tools.</span>
+              </div>
+            </div>
+            <div class="about-point anim-fade anim-delay-3">
+              <div class="about-point-icon">
+                <svg fill="none" viewBox="0 0 24 24" stroke="#0EA5E9" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                </svg>
+              </div>
+              <div class="about-point-text">
+                <strong>Affordable entry. High-end capability.</strong>
+                <span>$10/mo website hosting as a starting point. AIOS as the ceiling. Built for wherever you are.</span>
+              </div>
+            </div>
+          </div>
+
+          <a href="mailto:repton.digital@gmail.com" class="btn btn-primary anim-fade anim-delay-4">
+            Work With Us
+            <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <div class="container"><div class="divider"></div></div>
+
+  <!-- ============================================================
+       CTA
+       ============================================================ -->
+  <section id="cta">
+    <div class="container">
+      <div class="cta-card anim-fade">
+        <span class="eyebrow" style="display:block; margin-bottom:14px;">Let's Talk</span>
+        <h2>Ready to automate<br/>your business?</h2>
+        <p>Book a free discovery call. We'll map out exactly what digital services make sense for your business — no jargon, no pressure, no commitment.</p>
+
+        <div class="cta-btns">
+          <a href="mailto:repton.digital@gmail.com" class="btn btn-primary btn-lg">
+            Book a Discovery Call
+            <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+          </a>
+          <a href="tel:+61468093369" class="btn btn-glass btn-lg">
+            Call +61 468 093 369
+          </a>
+        </div>
+
+        <div class="cta-contact">
+          <a href="mailto:repton.digital@gmail.com">
+            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+            repton.digital@gmail.com
+          </a>
+          <a href="tel:+61468093369">
+            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+            +61 468 093 369
+          </a>
+          <span style="color: var(--text-3); font-size:13px;">Perth, Western Australia</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       FOOTER
+       ============================================================ -->
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <h3>Repton Digital<span>.</span></h3>
+          <p>Perth's AI agency for businesses that want to operate differently — faster, smarter, and with less manual work.</p>
+        </div>
+
+        <div class="footer-links">
+          <div class="footer-col">
+            <h4>Services</h4>
+            <ul>
+              <li><a href="#services">Website Development</a></li>
+              <li><a href="#services">AI Voice Agents</a></li>
+              <li><a href="#services">Automations</a></li>
+              <li><a href="#services">Software Development</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Products</h4>
+            <ul>
+              <li><a href="#aios">AIOS</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Company</h4>
+            <ul>
+              <li><a href="#about">About</a></li>
+              <li><a href="mailto:repton.digital@gmail.com">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>© 2025 Repton Digital. Perth, Western Australia.</span>
+        <a href="mailto:repton.digital@gmail.com">repton.digital@gmail.com</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
