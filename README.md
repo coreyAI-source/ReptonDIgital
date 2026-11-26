@@ -2,7 +2,7 @@
 
 Conversion-focused marketing site for Repton Digital, a Perth web development, AI automation and custom software business. Built with Next.js (App Router), TypeScript, Tailwind CSS v4 and Zod.
 
-**Status:** built and verified locally. On branch `repton-rebuild` of `coreyAI-source/ReptonDIgital`, not merged to `main`. A first merge returned 404 on reptondigital.com.au, so `main` was restored to the Reportly page. No credentials are configured yet, so enquiries are not sent until email is set up.
+**Status:** live at https://reptondigital.com.au, deployed from `main` of `coreyAI-source/ReptonDIgital` on Vercel. No credentials are configured yet, so enquiries are not sent until email is set up. The portfolio screenshots are not in the repository yet.
 
 ## What is included
 
@@ -64,8 +64,8 @@ Budget bands in the enquiry form (`src/lib/enquiry.ts`) are qualifying ranges on
 
 ## Deploying to Vercel
 
-1. The Vercel project `repton-d-igital` deploys `main` to reptondigital.com.au. Merge `repton-rebuild` into `main` only after its preview loads the Repton homepage.
-2. Check the Vercel project settings: **Framework Preset** must be **Next.js** and **Output Directory** must be empty. A static preset serves the repository with no homepage, so every page returns 404.
+1. The Vercel project `repton-d-igital` deploys `main` to reptondigital.com.au. For changes, push a branch, check its preview, then merge to `main`.
+2. `vercel.json` sets the framework to Next.js. The dashboard's **Output Directory** must still be empty. A static setting serves the repository with no homepage, so every page returns 404.
 3. Under **Environment Variables**, add the values from `.env.example` for the Production environment. Mark the `RESEND_API_KEY`, `LEAD_WEBHOOK_SECRET` and `TURNSTILE_SECRET_KEY` values as sensitive.
 4. Deploy. Then check `/robots.txt` and `/sitemap.xml`.
 5. Submit one test enquiry. Confirm the email arrives with the visitor's address as reply-to, and that GA4 Realtime and Meta Test Events show the page view and the lead.
