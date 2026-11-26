@@ -7,7 +7,7 @@ export type ButtonVariant = "primary" | "secondary" | "ghost";
 export type ButtonSize = "md" | "lg";
 
 const BUTTON_BASE =
-  "inline-flex items-center justify-center gap-2 rounded-full font-semibold tracking-tight whitespace-nowrap transition-colors duration-200";
+  "inline-flex items-center justify-center gap-2 rounded-full font-semibold tracking-[-0.015em] whitespace-nowrap transition-colors duration-200";
 
 const BUTTON_VARIANTS: Record<ButtonVariant, string> = {
   primary: "bg-electric text-ink hover:bg-electric-soft",

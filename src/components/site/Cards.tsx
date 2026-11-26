@@ -20,7 +20,7 @@ export function ServiceCard({
   return (
     <article className="glass flex h-full flex-col rounded-3xl p-7 transition-colors hover:border-electric/50">
       <p className="font-display text-sm font-bold text-electric-soft">{number}</p>
-      <h3 className="font-display mt-4 text-2xl font-extrabold tracking-tight text-paper">{title}</h3>
+      <h3 className="font-display mt-4 text-2xl font-extrabold tracking-[-0.015em] text-paper">{title}</h3>
       <p className="mt-3 flex-1 leading-relaxed text-mist">{body}</p>
       <TrackedLink
         href={href}
@@ -47,7 +47,7 @@ export function CapabilityCard({
 }) {
   return (
     <article className={cx("glass h-full rounded-3xl p-7", className)}>
-      <h3 className="font-display text-xl font-bold tracking-tight text-paper">{title}</h3>
+      <h3 className="font-display text-xl font-bold tracking-[-0.015em] text-paper">{title}</h3>
       <p className="mt-3 leading-relaxed text-mist">{body}</p>
       {children}
     </article>

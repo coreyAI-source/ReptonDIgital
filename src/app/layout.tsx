@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Inter, Syne } from "next/font/google";
+import { Inter, Plus_Jakarta_Sans, Syne } from "next/font/google";
 import "./globals.css";
 import { AnalyticsScripts } from "@/components/analytics/AnalyticsScripts";
 import { PageViewTracker } from "@/components/analytics/PageViewTracker";
@@ -13,10 +13,18 @@ import { OG_IMAGE } from "@/lib/metadata";
 import { buildStructuredData } from "@/lib/seo";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter", display: "swap" });
+// Plus Jakarta Sans sets the headings. Syne is kept only for the "Repton Digital" wordmark.
+const jakarta = Plus_Jakarta_Sans({
+  subsets: ["latin"],
+  variable: "--font-jakarta",
+  weight: ["500", "600", "700", "800"],
+  display: "swap",
+});
+
 const syne = Syne({
   subsets: ["latin"],
   variable: "--font-syne",
-  weight: ["600", "700", "800"],
+  weight: ["700", "800"],
   display: "swap",
 });
 
@@ -59,7 +67,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
   const structuredData = JSON.stringify(buildStructuredData()).replace(/</g, "\\u003c");
 
   return (
-    <html lang="en-AU" className={`${inter.variable} ${syne.variable}`}>
+    <html lang="en-AU" className={`${inter.variable} ${jakarta.variable} ${syne.variable}`}>
       <body className="flex min-h-dvh flex-col bg-ink font-sans text-paper antialiased">
         <AnalyticsScripts />
         <a

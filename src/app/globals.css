@@ -3,7 +3,8 @@
 /*
  * Brand tokens. Deep navy-black background, white type and electric-blue
  * accents. Values follow the existing Repton Digital brand (sky-blue accent,
- * Syne headings, Inter body text).
+ * Inter body text, Syne kept for the wordmark). Headings use Plus Jakarta Sans,
+ * which reads better at large sizes than Syne.
  */
 @theme {
   --color-ink: #060b16;
@@ -19,7 +20,8 @@
   --color-line-strong: rgb(255 255 255 / 0.22);
 
   --font-sans: var(--font-inter), ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
-  --font-display: var(--font-syne), var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-jakarta), var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-wordmark: var(--font-syne), var(--font-jakarta), ui-sans-serif, system-ui, sans-serif;
 
   --animate-rise: rise 0.8s cubic-bezier(0.2, 0.7, 0.2, 1) both;
 

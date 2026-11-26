@@ -216,7 +216,7 @@ export function EnquiryForm({
   if (status === "success") {
     return (
       <div role="status" className="glass rounded-3xl p-8 text-center sm:p-12">
-        <p className="font-display text-3xl font-extrabold tracking-tight text-paper">
+        <p className="font-display text-3xl font-extrabold tracking-[-0.015em] text-paper">
           Thanks{firstName ? `, ${firstName}` : ""}.
         </p>
         <p className="mx-auto mt-4 max-w-md text-lg leading-relaxed text-mist">

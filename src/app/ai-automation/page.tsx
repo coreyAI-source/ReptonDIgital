@@ -109,7 +109,7 @@ export default function AiAutomationPage() {
 
       <Section labelledBy="responsible-title" className="pt-0">
         <div className="glass rounded-[2rem] p-8 sm:p-12">
-          <h2 id="responsible-title" className="font-display text-2xl font-extrabold tracking-tight sm:text-3xl">
+          <h2 id="responsible-title" className="font-display text-2xl font-extrabold tracking-[-0.015em] sm:text-3xl">
             Where AI is part of the workflow.
           </h2>
           <div className="mt-5 grid gap-6 leading-relaxed text-mist md:grid-cols-2">

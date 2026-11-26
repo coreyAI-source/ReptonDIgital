@@ -46,7 +46,7 @@ export function SectionHeading({
       {eyebrow ? <Eyebrow>{eyebrow}</Eyebrow> : null}
       <h2
         id={titleId}
-        className="font-display mt-4 text-[clamp(1.9rem,4vw,3rem)] font-extrabold leading-[1.05] tracking-tight text-paper"
+        className="font-display mt-4 text-[clamp(1.9rem,4vw,3rem)] font-extrabold leading-[1.1] tracking-[-0.015em] text-paper"
       >
         {title}
       </h2>
@@ -75,7 +75,7 @@ export function PageHero({
       />
       <Container className="relative">
         <Eyebrow>{eyebrow}</Eyebrow>
-        <h1 className="font-display mt-5 max-w-5xl text-[clamp(2.4rem,6vw,4.5rem)] font-extrabold leading-[0.98] tracking-tight text-paper">
+        <h1 className="font-display mt-5 max-w-5xl text-[clamp(2.4rem,6vw,4.5rem)] font-extrabold leading-[1.04] tracking-[-0.015em] text-paper">
           {title}
         </h1>
         <p className="mt-6 max-w-2xl text-lg leading-relaxed text-mist">{lead}</p>

@@ -18,7 +18,7 @@ export function Logo({ priority = false, className }: { priority?: boolean; clas
         sizes="36px"
         className="h-7 w-7 mix-blend-screen sm:h-9 sm:w-9"
       />
-      <span className="font-display whitespace-nowrap text-sm font-extrabold tracking-tight text-paper max-[389px]:sr-only sm:text-lg">
+      <span className="font-wordmark whitespace-nowrap text-sm font-extrabold tracking-[-0.015em] text-paper max-[389px]:sr-only sm:text-lg">
         Repton Digital
       </span>
     </Link>

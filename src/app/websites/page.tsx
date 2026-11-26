@@ -88,8 +88,8 @@ export default function WebsitesPage() {
 
         <div className="glass mt-12 grid gap-10 rounded-[2rem] p-8 sm:p-10 lg:grid-cols-[1.2fr_1fr]">
           <div>
-            <p className="font-display text-5xl font-extrabold tracking-tight text-paper">A$699</p>
-            <h3 className="font-display mt-8 text-xl font-bold tracking-tight">Included in the starter package</h3>
+            <p className="font-display text-5xl font-extrabold tracking-[-0.015em] text-paper">A$699</p>
+            <h3 className="font-display mt-8 text-xl font-bold tracking-[-0.015em]">Included in the starter package</h3>
             <ul className="mt-5 space-y-3 text-mist">
               {included.map((item) => (
                 <li key={item} className="flex gap-3">
@@ -103,7 +103,7 @@ export default function WebsitesPage() {
           </div>
 
           <div className="rounded-3xl border border-line bg-ink/60 p-7">
-            <h3 className="font-display text-xl font-bold tracking-tight">Optional, quoted separately</h3>
+            <h3 className="font-display text-xl font-bold tracking-[-0.015em]">Optional, quoted separately</h3>
             <p className="mt-3 text-sm leading-relaxed text-smoke">
               These costs are not included in the A$699 price. Choose only what you need.
             </p>

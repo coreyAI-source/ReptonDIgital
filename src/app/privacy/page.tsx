@@ -12,7 +12,7 @@ export const metadata: Metadata = pageMetadata({
 function Section({ id, title, children }: { id: string; title: string; children: React.ReactNode }) {
   return (
     <section aria-labelledby={id} className="space-y-4">
-      <h2 id={id} className="font-display text-xl font-extrabold tracking-tight text-paper">
+      <h2 id={id} className="font-display text-xl font-extrabold tracking-[-0.015em] text-paper">
         {title}
       </h2>
       {children}
@@ -24,7 +24,7 @@ export default function PrivacyPage() {
   return (
     <div className="mx-auto max-w-3xl px-4 pb-24 pt-16 sm:px-6 sm:pt-24">
       <p className="text-xs font-semibold uppercase tracking-[0.22em] text-electric-soft">Legal</p>
-      <h1 className="font-display mt-5 text-[clamp(2.4rem,6vw,4rem)] font-extrabold leading-tight tracking-tight text-paper">
+      <h1 className="font-display mt-5 text-[clamp(2.4rem,6vw,4rem)] font-extrabold leading-tight tracking-[-0.015em] text-paper">
         Privacy policy
       </h1>
       <p className="mt-4 text-sm text-smoke">Last updated: {business.privacyPolicyUpdated}</p>

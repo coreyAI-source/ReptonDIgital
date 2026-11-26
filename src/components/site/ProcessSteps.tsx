@@ -6,7 +6,7 @@ export function ProcessSteps({ steps }: { steps: ReadonlyArray<{ title: string; 
           <p className="font-display text-4xl font-extrabold text-electric/80">
             {String(index + 1).padStart(2, "0")}
           </p>
-          <h3 className="font-display mt-4 text-xl font-bold tracking-tight text-paper">{step.title}</h3>
+          <h3 className="font-display mt-4 text-xl font-bold tracking-[-0.015em] text-paper">{step.title}</h3>
           <p className="mt-3 leading-relaxed text-mist">{step.body}</p>
         </li>
       ))}

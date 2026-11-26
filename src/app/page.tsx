@@ -103,8 +103,8 @@ export default function HomePage() {
         <Container className="relative">
           <div className="animate-rise">
             <Eyebrow>Perth web development and AI automation</Eyebrow>
-            <h1 className="font-display mt-6 text-[clamp(2.5rem,6vw,5.2rem)] font-extrabold leading-[0.96] tracking-tight text-paper">
-              Custom websites. <span className="text-electric-soft">Powerful software.</span> Built for Perth.
+            <h1 className="font-display mt-6 text-[clamp(2.5rem,6vw,5.2rem)] font-extrabold leading-[1.04] tracking-[-0.015em] text-paper">
+              Custom websites. <span className="text-electric-soft lg:whitespace-nowrap">Powerful software.</span> <span className="lg:whitespace-nowrap">Built for Perth.</span>
             </h1>
           </div>
 
@@ -214,7 +214,7 @@ export default function HomePage() {
           <div className="relative grid gap-8 md:grid-cols-[1.2fr_1fr] md:items-center">
             <div>
               <Eyebrow>Website starter package</Eyebrow>
-              <h2 id="offer-title" className="font-display mt-4 text-3xl font-extrabold tracking-tight sm:text-4xl">
+              <h2 id="offer-title" className="font-display mt-4 text-3xl font-extrabold tracking-[-0.015em] sm:text-4xl">
                 Starter websites from A$699.
               </h2>
               <p className="mt-4 text-lg leading-relaxed text-mist">
@@ -245,7 +245,7 @@ export default function HomePage() {
             className="pointer-events-none absolute left-1/2 top-0 h-56 w-[min(560px,100%)] -translate-x-1/2 rounded-full bg-electric/20 blur-3xl"
           />
           <div className="relative">
-            <h2 id="cta-title" className="font-display text-3xl font-extrabold tracking-tight sm:text-5xl">
+            <h2 id="cta-title" className="font-display text-3xl font-extrabold tracking-[-0.015em] sm:text-5xl">
               Ready to build something?
             </h2>
             <p className="mx-auto mt-5 max-w-xl text-lg leading-relaxed text-mist">

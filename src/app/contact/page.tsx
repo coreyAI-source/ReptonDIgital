@@ -34,7 +34,7 @@ export default async function ContactPage({ searchParams }: ContactPageProps) {
         <div className="grid gap-12 lg:grid-cols-[0.8fr_1.2fr]">
           <div className="space-y-10">
             <div>
-              <h2 className="font-display text-2xl font-extrabold tracking-tight">Prefer to talk first?</h2>
+              <h2 className="font-display text-2xl font-extrabold tracking-[-0.015em]">Prefer to talk first?</h2>
               <ul className="mt-5 space-y-3 text-mist">
                 <li>
                   Call{" "}
@@ -61,7 +61,7 @@ export default async function ContactPage({ searchParams }: ContactPageProps) {
             </div>
 
             <div>
-              <h2 className="font-display text-2xl font-extrabold tracking-tight">What helps us reply faster</h2>
+              <h2 className="font-display text-2xl font-extrabold tracking-[-0.015em]">What helps us reply faster</h2>
               <ul className="mt-5 list-disc space-y-2 pl-5 text-mist">
                 <li>What your business does and who your customers are</li>
                 <li>What you need built: a website, automation or software</li>

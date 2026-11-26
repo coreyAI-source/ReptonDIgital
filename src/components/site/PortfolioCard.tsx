@@ -24,7 +24,7 @@ export function PortfolioCard() {
           <p className="inline-flex w-fit items-center rounded-full border border-electric/40 bg-electric/10 px-3 py-1 text-xs font-semibold text-electric-soft">
             Build complete, in client review
           </p>
-          <h3 className="font-display mt-5 text-2xl font-extrabold tracking-tight text-paper sm:text-3xl">
+          <h3 className="font-display mt-5 text-2xl font-extrabold tracking-[-0.015em] text-paper sm:text-3xl">
             Fresh New Look Renovations
           </h3>
           <p className="mt-3 leading-relaxed text-mist">

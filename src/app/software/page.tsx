@@ -97,7 +97,7 @@ export default function SoftwarePage() {
           ))}
         </div>
         <div className="glass mt-8 rounded-3xl p-8">
-          <h3 className="font-display text-xl font-bold tracking-tight">What is under the hood</h3>
+          <h3 className="font-display text-xl font-bold tracking-[-0.015em]">What is under the hood</h3>
           <p className="mt-3 leading-relaxed text-mist">
             Secure sign-in and user roles, database design, API integrations and hosting set-up. Ownership, licensing and
             any ongoing support are agreed in writing before work starts.

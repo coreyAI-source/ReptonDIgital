@@ -40,7 +40,7 @@ export default function WorkPage() {
               <p className="inline-flex w-fit items-center rounded-full border border-electric/40 bg-electric/10 px-3 py-1 text-xs font-semibold text-electric-soft">
                 Build complete, in client review. Not yet launched.
               </p>
-              <h2 id="project-title" className="font-display mt-6 text-3xl font-extrabold tracking-tight sm:text-4xl">
+              <h2 id="project-title" className="font-display mt-6 text-3xl font-extrabold tracking-[-0.015em] sm:text-4xl">
                 Fresh New Look Renovations website
               </h2>
               <p className="mt-4 text-lg leading-relaxed text-mist">
@@ -48,7 +48,7 @@ export default function WorkPage() {
                 present the business&apos;s services, photos and a quote enquiry form.
               </p>
 
-              <h3 className="font-display mt-10 text-xl font-bold tracking-tight">What we built</h3>
+              <h3 className="font-display mt-10 text-xl font-bold tracking-[-0.015em]">What we built</h3>
               <ul className="mt-5 space-y-3 text-mist">
                 {built.map((item) => (
                   <li key={item} className="flex gap-3">
@@ -132,7 +132,7 @@ export default function WorkPage() {
 
       <Section labelledBy="next-title" className="pt-0">
         <div className="glass rounded-[2rem] p-8 text-center sm:p-12">
-          <h2 id="next-title" className="font-display text-2xl font-extrabold tracking-tight sm:text-3xl">
+          <h2 id="next-title" className="font-display text-2xl font-extrabold tracking-[-0.015em] sm:text-3xl">
             Have a project like this?
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-mist">
