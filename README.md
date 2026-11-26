@@ -2,7 +2,7 @@
 
 Conversion-focused marketing site for Repton Digital, a Perth web development, AI automation and custom software business. Built with Next.js (App Router), TypeScript, Tailwind CSS v4 and Zod.
 
-**Status:** built and verified locally. Pushed to the `repton-rebuild` branch of `coreyAI-source/reptondigital`, not merged to `main`. Not deployed. No credentials are configured.
+**Status:** built and verified locally. Merged to `main` of `coreyAI-source/ReptonDIgital`, which Vercel deploys to production. No credentials are configured yet, so enquiries are not sent until email is set up.
 
 ## What is included
 
@@ -62,10 +62,10 @@ Nothing below has been published or activated. Items marked **credential** need 
 
 Budget bands in the enquiry form (`src/lib/enquiry.ts`) are qualifying ranges only, not prices.
 
-## Deploying to Vercel (not done: needs your approval)
+## Deploying to Vercel
 
-1. Merge the `repton-rebuild` branch into `main` on `coreyAI-source/reptondigital` (a pull request is the usual route). Check first whether `main` is connected to a live Vercel project, since a push to `main` can deploy.
-2. In Vercel, choose **Add New Project**, import the repository and keep the framework preset as Next.js.
+1. Done: `main` of `coreyAI-source/ReptonDIgital` is connected to the Vercel project `repton-d-igital`. For later changes, push a branch, check its preview, then merge to `main`.
+2. Check the Vercel project settings: **Framework Preset** must be **Next.js** and **Output Directory** must be empty. A static preset serves the repository with no homepage, so every page returns 404.
 3. Under **Environment Variables**, add the values from `.env.example` for the Production environment. Mark the `RESEND_API_KEY`, `LEAD_WEBHOOK_SECRET` and `TURNSTILE_SECRET_KEY` values as sensitive.
 4. Deploy. Then check `/robots.txt` and `/sitemap.xml`.
 5. Submit one test enquiry. Confirm the email arrives with the visitor's address as reply-to, and that GA4 Realtime and Meta Test Events show the page view and the lead.
@@ -77,7 +77,7 @@ Budget bands in the enquiry form (`src/lib/enquiry.ts`) are qualifying ranges on
 - `npm run test:e2e`: 34 test runs, 17 cases on each of the desktop and phone projects. 31 pass and 3 are skipped by design (device-specific checks). They cover page layout, the mobile menu, the Black Friday end date, form validation, UTM persistence, the webhook round trip, analytics events (including no lead event on failure), and an accessibility scan.
 - Horizontal overflow checked at 320, 360, 375, 390, 414, 600, 768, 900, 1024, 1280 and 1440 px on every page.
 
-Not yet done: Lighthouse scores, real-device testing, live email delivery, live GA4 and Meta event verification, and deployment.
+Not yet done: Lighthouse scores, real-device testing, live email delivery, and live GA4 and Meta event verification.
 
 ## Project structure
 
