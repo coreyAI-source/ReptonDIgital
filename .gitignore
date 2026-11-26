@@ -1,0 +1,25 @@
+# dependencies
+node_modules/
+
+# next.js
+.next/
+.next-*/
+out/
+next-env.d.ts
+
+# environment: never commit real values
+.env
+.env.local
+.env.*.local
+
+# testing
+coverage/
+playwright-report/
+test-results/
+blob-report/
+
+# misc
+*.tsbuildinfo
+.DS_Store
+.vercel
+npm-debug.log*
